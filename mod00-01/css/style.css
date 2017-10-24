@@ -1,0 +1,44 @@
+body {
+	background-color: aqua;
+	background: url("../img/background.jfif") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	font-family: 'work sans', sans-serif;
+}
+
+p	{
+	font-family: 'open sans', sans-serif;
+
+}
+
+h1	{
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+h2	{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#pic1	{
+	height: 300px;
+	border-radius: 5%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: teal;
+	margin-top: 50px;
+}
+
+
+.about {
+	width: 100%;
+}
+
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
