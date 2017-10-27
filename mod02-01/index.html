@@ -308,7 +308,7 @@
 	<hr>
 	<form action="" method="">
 		<select name="brand">
-			<option value="uniqlo">Uniqlo</option> value=""
+			<option value="uniqlo">Uniqlo</option> 
 			<option value="bench" selected>Bench</option>
 			<option value="penshoppe">Penshoppe</option>
 		</select>
@@ -341,6 +341,61 @@
 			<input type="submit" name="signin" value="Sign In">	
 			<input type="submit" name="signin" value="Sign Up">	
 	</form>
+
+	<hr>
+
+	<fieldset>
+		<legend>Contact Details</legend>
+		<label for="email">E-mail</label>
+		<input type="email" name="email">
+
+		<label for="mobile">Mobile</label>
+		<input type="number" name="mobile">
+	</fieldset>
+
+	<hr>
 	
+	<fieldset>
+	<legend>Your Details</legend>
+		<label>Name</label>
+		<input type="userName" name="name">
+
+		<label>E-mail</label>
+		<input type="email" name="email">
+	</fieldset>
+
+	<hr>
+
+	<fieldset>
+		<legend>Your Review</legend>
+		<form action="" method="">How did you hear about us?
+			<select>
+			<option value="google" selected="">Google</option> 
+			<option value="yahoo">Yahoo</option>
+			<option value="bing">Bing</option>
+			<option value="facebook">Facebook</option>
+			<option value="instagram">Instagram</option>
+			</select>
+		</form>
+
+		<input type="radio" name="option" value="yes">Yes
+		<input type="radio" name="option" value="no">No
+		<input type="radio" name="option" value="maybe">Maybe
+
+	<form action="" method="">Comments:
+	
+	<br>
+
+		<textarea></textarea>
+	</form>
+
+	<input type="radio" name="yes" value="yes">Sign me up for email updates
+	
+	<br>
+
+	<input type="submit" name="Submit Review" value="Submit Review" checked>
+
+	</fieldset>
+
 </body>
 </html>
