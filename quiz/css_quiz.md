@@ -117,5 +117,5 @@
     
     main #comment #reply : 201
     
-    nav > ul > li > a:hover : 1,003
+    nav > ul > li > a:hover : 1,003 <!-- should be 14 -->
 
