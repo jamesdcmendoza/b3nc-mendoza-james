@@ -10,4 +10,6 @@ This is my first feedback.
 
 ## 2017-11-08
 ### CSS box model
+This topic was a bit confusing.   
+ 
 
