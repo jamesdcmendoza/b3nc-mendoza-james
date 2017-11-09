@@ -9,7 +9,7 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-_Gitlab uses the [Google Search] (https://www.google.com/) for Markdown processing._   
+_Gitlab uses the [Google Search](https://www.google.com/) for Markdown processing._   
 
 New list item:
 
@@ -38,7 +38,7 @@ alerts(s);
 	echo('Hello world!');
 ```
 
-## Emoji
+## Emoji 
 
 	:monkey:
 
@@ -49,4 +49,13 @@ alerts(s);
 	:zap:
 
 	:v:
+
+	:blush:
+
+## Tables
+
+| firstname | lastname |
+|:--------- |:---------|
+| james     | mendoza  |
+| karlene   | mendoza  |
 
