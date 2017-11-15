@@ -101,3 +101,255 @@
 	position: relative;
 	bottom: 150px;
 }
+
+.container_five {
+	width: 700px;
+	padding: 10px;
+	height: 130px;
+	background-color: black;
+}
+
+.container_five_box {
+	height: 50px;
+	width: 50px;
+	background-color: grey;
+	position: relative;
+}
+
+.container_five_content {
+	position: relative;
+	float: left;
+	left: 55px;
+	bottom: 91px;
+	width: 630px;
+	height: 60px;
+}
+
+.container_five_text {
+	width: 100%;
+	height:120%;
+}
+
+.container_five_cancel {
+	position: relative;
+	float: right;
+	margin-right: 5px;
+}
+
+.container_five_add {
+	position: relative;
+	float: right;
+}
+
+.container_six {
+	width: 700px;
+	padding: 10px;
+	min-height: 100px;
+	background-color: black;
+}
+
+
+.juan_box {
+	height: 50px;
+	width: 50px;
+	background-color: grey;
+}
+
+.juan_name {
+	position: relative;
+	bottom: 55px;
+	left: 55px;
+}
+
+.juan_text {
+	width: 91%;
+	position: relative;
+	bottom: 55px;
+	left: 55px;
+
+}
+
+.container_six_button {
+	position: relative;
+	float: left;
+	bottom: 55px;
+	left: 55px;
+}
+
+.container_six_section {
+	background-color: black;
+	width: 91%;
+	height: 300px;
+	margin-left: 7%;
+}
+
+.container_seven {
+	background-color: black;
+	width: 500px;
+	min-height: 100px;
+	padding: 10px;
+}
+
+.container_seven_box {
+	background-color: grey;
+	height: 100px;
+	width: 40%;
+}
+
+.container_seven_text {
+	width: 62%;
+	position: relative;
+	left: 195px;
+	bottom: 100px;
+}
+
+.container_eight {
+	background-color: black;
+	width: 500px;
+	min-height: 130px;
+	padding: 10px;
+}
+
+.container_eight_box {
+	background-color: grey;
+	height: 100px;
+	width: 40%;
+	position: relative;
+	float: right;
+}
+
+.container_eight_text {
+	width: 62%;
+	position: relative;
+}
+
+
+.container_nine {
+	background-color: black;
+	width: 700px;
+	height: 340px;
+	padding: 10px;
+}
+
+.container_nine_grid {
+	background-color: black;
+	position: relative;
+	bottom: 10px;
+	left: 180px;
+	width: 510px;
+	height: 300px;
+
+}
+
+.container_nine_box {
+	background-color: grey;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+}
+
+.container_nine_text {
+	position: relative;
+	background-color: black;
+	width: 25%;
+	height: 120px;
+	z-index: 1;
+	bottom: 300px;
+	right: 3px;
+}
+
+.container_ten {
+	background-color: black;
+	width: 1000px;
+	height: 800px;
+	padding: 10px;
+}
+
+.container_ten_grid {
+	background-color: black;
+	height: 700px;
+	width: 600px;
+
+}
+
+.container_ten_box {
+	border: grey solid 1px;
+	background-color: black;
+	width: 150px;
+	height: 150px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.grey_box_ten {
+	background-color: grey;
+	height: 100px;
+	width: 140px;
+	position: relative;
+	top: 22px;
+	left: 4px;
+}
+
+.container_grid10_text {
+	text-align: center;
+}
+
+.container_ten_greyboxes {
+	background-color: black;
+	width: 500px;
+	height: 700px;
+	position: relative;
+	bottom: 705px;
+	left: 470px;
+}
+
+.container_ten_greybox {
+	background-color: grey;
+	width: 400px;
+	height: 250px;
+	float: right;
+}
+
+.container_ten_nav {
+	float: left;
+	background-color: grey;
+	margin-top: 2px;
+	margin-right: 2px;
+	display: inline;
+
+}
+
+.container_ten_baguio {
+	background-color: black;
+	padding: 10px;
+	width: 500px;
+	height: 500px;
+	float: left;
+}
+
+.container_ten_greyimage {
+	background-color: grey;
+	margin-right: 10px;
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.baguio_section_ten {
+	position: relative;
+	width: 400px;
+	height: 500px;
+	float: left;
+}
+
+.ten_menu {
+	margin-right: 10px;
+}
+
+.tenlist {
+	margin-right: 10px;
+}
