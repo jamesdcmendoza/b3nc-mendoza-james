@@ -7,6 +7,10 @@ body {
 	margin: 0;
 }
 
+p, h3, h2 {
+	color: white;
+}
+
 .nav,
 .banner,
 .about,
@@ -21,11 +25,16 @@ body {
 	width: 140px;
 	height: 140px;
 	background-color: darkgrey;
+
+}
+
+#witcher1 {
+	width: inherit;
 }
 
 
 .nav {
-	background-color: yellow;
+	background-color: black;
 	height: 100%;
 	width: 200px;
 	position: fixed;
@@ -37,10 +46,11 @@ ul {
 
 ul > li {
 	list-style: none;
-	background-color: lightblue;
+	background-color: silver;
 	margin-bottom: 2px;
 	text-align: center;
 	line-height: 48px;
+	border-radius: 3%;
 	/*padding: 20px;*/
 }
 
@@ -55,9 +65,19 @@ ul > li > a {
 
 /*Banner*/
 .banner {
-	background-color: skyblue;
+	background-color: black;
+	background: url(../img/witcherbanner.jpg) no-repeat;
 	position: relative;
-	min-height: 700px;
+	min-height: 500px;
+	padding: 0px;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+#witcherbanner {
+	width: inherit;
+	height: inherit;
 }
 
 .box {
@@ -73,14 +93,20 @@ ul > li > a {
 }
 
 .about {
-	background-color: indianred;
+	background-color: black;
+	background: url(../img/aboutwitcher.jpg) no-repeat;
 	min-height: 300px;
+	background-attachment: fixed;
+	background-size: cover;
 	/*height: 700px;*/
 }
 
+
+
+
 /*Services*/
 .services {
-	background-color: midnightblue;
+	background-color: black;
 	min-height: 300px;
 }
 
@@ -114,13 +140,13 @@ ul > li > a {
 }
 
 .projects {
-	background-color: crimson;
+	background-color: black;
 	min-height: 300px;
 }
 
 /*Gallery*/
 .gallery {
-	background-color: orange;
+	background-color: black;
 	min-height: 400px;
 }
 
@@ -141,7 +167,7 @@ ul > li > a {
 
 /*Footer*/
 .footer {
-	background-color: green;
+	background-color: silver;
 	min-height: 70px;
 }
 
