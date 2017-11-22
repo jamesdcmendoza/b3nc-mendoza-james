@@ -108,6 +108,9 @@ ul > li > a {
 .services {
 	background-color: black;
 	min-height: 300px;
+	background: url(../img/witcherservices.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .services h3 {
@@ -142,12 +145,18 @@ ul > li > a {
 .projects {
 	background-color: black;
 	min-height: 300px;
+	background: url(../img/witcherprojects.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 /*Gallery*/
 .gallery {
 	background-color: black;
 	min-height: 400px;
+	background: url(../img/witchergallery.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .gallery > .column {
