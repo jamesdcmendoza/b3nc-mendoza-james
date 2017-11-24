@@ -86,8 +86,10 @@ li a {
 	box-shadow: 10px 10px 5px #888888;
 }
 
-.itemname {
+.itemname a {
 	font-size: 20px;
+	text-decoration: none;
+	color: black;
 }
 
 .sidebar {
