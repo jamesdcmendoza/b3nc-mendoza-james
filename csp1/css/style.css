@@ -7,12 +7,22 @@
 
 .banner {
 	width: 100%;
-	height: 500px;
+	height: 400px;
 	background-color: black;
-	font-family: 'lato', sans-serif;
-	color: orange;
-	text-align: center;
-	line-height: 500px;
+	position: relative;
+}
+
+#acelogo {
+	width: 300px;
+	position: relative;
+	margin: 20px;
+    animation: spin 2.5s;
+}
+
+@keyframes spin {
+	0% {transform: rotate(0deg); }
+	100% {transform: rotate(360deg); }
+
 }
 
 .banner > h1 a {
@@ -26,6 +36,10 @@
 	width: 100%;
 	height: 50px;
 	background-color: orange;
+	color: black;
+	text-align: center;
+	font-family: 'lato', sans-serif;
+	font-size: 40px;
 }
 
 .services {
@@ -53,7 +67,7 @@
 	font-family: 'lato', sans-serif;
 	text-align: center;
 	vertical-align: center;
-	font-size: 25px;
+	font-size: 50px;
 	position: relative;
 	top: 50%;
     left: 50%;
@@ -64,28 +78,32 @@
 
 .activation {
 	height: 98.5%;
-	width: 40%;
+	width: 48%;
 	background-color: grey;
 	float: left;
 	margin: 10px;
-	/*background: url(../img/activations.jpg) no-repeat;*/
+	background: url(../img/activationmain.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 
 .creatives {
 	height: 48%;
-	width: 55%;
+	width: 47%;
 	background-color: white;
 	float: left;
 	margin: 10px;
+	background: url(../img/creativesmain.jpg) no-repeat;
+	background-size: 100% 100%;
 }
 
 .events {
 	height: 48%;
-	width: 55%;
+	width: 47%;
 	background-color: silver;
 	float: left;
 	margin: 10px;
+	background: url(../img/eventmain.jpg) no-repeat;
+	background-size: 100% 100%;
 }
 
 .events:after {
@@ -100,24 +118,130 @@
 	display: block;
 }
 
-.contact {
+.footer {
 	height: 200px;
 	width: 100%;
 	background-color: orange;
+	color: black;
+	font-family: 'lato', sans-serif;
+	padding: 20px 20px 0px 20px;
 }
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.about {
+	width: 500px;
+	height: 180px;
+	float: left;
+	margin-right: 20px;
+
+}
+
+.contact {
+	height: 180px;
+	float: left;
+	margin: 0px 20px;
+}
+
+.follow {
+	width: 100px;
+	float: left;
+	margin: 0px 20px;
+}
+
+p {
+	margin-bottom: 10px;
+
+}
+
+h2 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+/*webpages*/
+
+.webpage2 {
+	width: 100%;
+	height: 400px;
+	background-color: black;
+}
+
+.services2 {
+	padding: 0px;
+	height: 700px;
+	width: 100%;
+	background-color: black;
+}
+
+.portfolio {
+	width: 30%;
+	height: 300px;
+	background-color: salmon;
+	float: left;
+	margin: 20px;
+}
+
+#portpic {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
 
 /*tablet*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
-	.activations,
+	.activation,
 	.creatives,
 	.events {
-		width: 50%;
+		width: 96%;
+		height: 350px;
 		float: left;
 	}
+
+	.services {
+		height: 1160px;
+	}
+
+	.footer {
+		height: 360px;
+	}
+
+	.about {
+		width: 100%;
+		height: 200px;
+	}
+
+	.contact {
+		height: 140px;
+	}
+
+	.services2 {
+		min-height: 2050px;
+	}
+
+	.portfolio {
+		height: 300px;
+		width: 90%;
+		float: left;
+	}
+
 }
 
-/*tablet*/
+/*mobile*/
 @media only screen and (max-width: 400px) {
 
 	.services {
@@ -139,9 +263,39 @@
 		display: block;
 	}	
 
-/*	.contact {
-		clear: both;
+	.footer {
+		width: 100%;
+		height: 350px;
 	}
-*/
+
+	.about {
+		display: none;
+	}
+
+	.contact,
+	.follow {
+		width: 80%;
+	}
+
+	#acelogo {
+		width: 300px;
+		margin: 0px;
+		position: absolute;
+		top: 50%;
+	    left: 50%;
+	    animation: none;
+	    transform: translateX(-50%) translateY(-50%);
+	}
+
+	.services2 {
+		height: 1750px;
+	}
+
+	.portfolio {
+		width: 90%;
+		height: 250px;
+		float: left;
+	}
+
 
 }
