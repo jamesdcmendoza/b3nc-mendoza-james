@@ -7,7 +7,7 @@
 
 .banner {
 	width: 100%;
-	height: 400px;
+	height: 350px;
 	background-color: black;
 	position: relative;
 }
@@ -16,7 +16,7 @@
 	width: 300px;
 	position: relative;
 	margin: 20px;
-    animation: spin 2.5s;
+    animation: spin 2s infinite;
 }
 
 @keyframes spin {
@@ -27,7 +27,7 @@
 
 .banner > h1 a {
 	text-decoration: none;
-	color: orange;
+	color: #e65c00;
 	letter-spacing: 5px;
 }
 
@@ -35,11 +35,12 @@
 .navigation {
 	width: 100%;
 	height: 50px;
-	background-color: orange;
-	color: black;
+	background-color: black;
+	color: orange;
 	text-align: center;
 	font-family: 'lato', sans-serif;
 	font-size: 40px;
+	font-weight: 900;
 }
 
 .services {
@@ -56,6 +57,7 @@
 	width: 100%;
 	transition: .5s ease;
 	opacity: 0;
+	font-weight: 900;
 }
 
 .effect:hover .overlay{
@@ -72,6 +74,15 @@
 	top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+}
+
+#htext {
+	text-decoration: none;
+}
+
+
+#htext:visited {
+ 	color: black;
 }
 
 
@@ -119,26 +130,29 @@
 }
 
 .footer {
-	height: 200px;
+	height: 210px;
 	width: 100%;
-	background-color: orange;
-	color: black;
+	background-color: black;
+	color: orange;
+	font-weight: 900;
 	font-family: 'lato', sans-serif;
-	padding: 20px 20px 0px 20px;
+	padding: 20px 20px 0px 30px;
 }
 
-a:link {
+#social:link {
 	text-decoration: none;
-	color: black;
+	color: orange;
 }
 
-a:visited {
-	color: black;
+
+#social:visited {
+	color: orange;
 }
 
 ul {
   list-style-type: none;
 }
+
 
 .about {
 	width: 500px;
@@ -167,7 +181,7 @@ p {
 
 h2 {
 	margin-bottom: 10px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 /*webpages*/
@@ -185,12 +199,12 @@ h2 {
 	background-color: black;
 }
 
+
 .portfolio {
-	width: 30%;
-	height: 300px;
-	background-color: salmon;
+	width: 100%;
+	height: 100%;
 	float: left;
-	margin: 20px;
+	/*margin: 20px;*/
 }
 
 #portpic {
@@ -199,6 +213,42 @@ h2 {
 	object-fit: cover;
 }
 
+.container {
+	position: relative;
+	height:299px;
+	width: 30%;
+	float: left;
+	margin: 20px;
+}
+
+.overlay2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container:hover .overlay2 {
+  opacity: 0.8;
+}
+
+
+.hovertext2 {
+	  color: white;
+	  font-size: 30px;
+	  font-family: 'lato' sans-serif;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  -ms-transform: translate(-50%, -50%);
+}
 
 
 /*tablet*/
@@ -217,7 +267,7 @@ h2 {
 	}
 
 	.footer {
-		height: 360px;
+		height: 375px;
 	}
 
 	.about {
@@ -230,13 +280,29 @@ h2 {
 	}
 
 	.services2 {
-		min-height: 2050px;
+		min-height: 1920px;
 	}
 
 	.portfolio {
 		height: 300px;
 		width: 90%;
 		float: left;
+	}
+
+	.container {
+		width: 100%;
+		height: 275px;
+		position: relative;
+	}
+
+	.overlay2 {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 110%;
+		width: 90%;
 	}
 
 }
@@ -279,12 +345,10 @@ h2 {
 
 	#acelogo {
 		width: 300px;
-		margin: 0px;
-		position: absolute;
-		top: 50%;
-	    left: 50%;
-	    animation: none;
-	    transform: translateX(-50%) translateY(-50%);
+		margin: 0 auto;
+		display: block;
+		top: 40px;
+	    /*transform: translateX(-50%) translateY(-50%)*/;
 	}
 
 	.services2 {
@@ -295,6 +359,21 @@ h2 {
 		width: 90%;
 		height: 250px;
 		float: left;
+	}
+
+	.container {
+		height: 250px;
+		width: 98%;
+	}
+
+	.overlay2 {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100%;
+		width: 100%;
 	}
 
 
