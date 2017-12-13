@@ -21,3 +21,23 @@ function blueFunc() {
 function indigoFunc() {
 	document.getElementById("indigo-box").style.backgroundColor = "indigo";
 }
+
+
+var navClass;
+
+function changeColor(className, id=null) {
+	if (id == null) {
+		navClass = className.replace("nav-box ", "");
+	} else {
+		var boxClass = className.split(" ");
+		var boxClassLength = boxClass.length;
+		var element = document.getElementById(id);
+
+		if (boxClassLength > 1) {
+			element.classList.remove(boxClass[1]);
+			element.className = boxClass[0] + " " + navClass;
+		} else {
+			element.className = boxClass + " " + navClass;
+		}
+	}
+}

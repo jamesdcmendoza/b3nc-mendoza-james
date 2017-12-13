@@ -43,31 +43,31 @@ nav {
 
 }
 
-#red {
+.red {
 	background-color: red
 }
 
-#orange {
+.orange {
 	background-color: orange;
 }
 
-#yellow {
+.yellow {
 	background-color: yellow;
 }
 
-#green {
+.green {
 	background-color: green;
 }
 
-#blue {
-	background-color: blue
+.blue {
+	background-color: blue;
 
 }
 
-#indigo {
+.indigo {
 	background-color: indigo;
 }
 
-#violet {
+.violet {
 	background-color: violet;
 }
